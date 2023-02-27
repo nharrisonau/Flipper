@@ -13,7 +13,7 @@ void render_view_info(Canvas *const canvas, ProtoViewApp *app) {
 
     /* Protocol name as title. */
     canvas_set_font(canvas, FontPrimary);
-    uint8_t y = 8, lineheight = 10;
+    uint8_t y = 8, lineheight = 20;
     canvas_draw_str(canvas, 0, y, app->signal_info.name);
     y += lineheight;
 
